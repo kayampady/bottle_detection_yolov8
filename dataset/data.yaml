@@ -1,0 +1,13 @@
+train: train/images
+val: train/images
+
+
+nc: 1
+names: ['bottles']
+
+roboflow:
+  workspace: practiceak
+  project: practiceak
+  version: dataset
+  license: Private
+  url: https://app.roboflow.com/practiceak/practiceak/dataset
