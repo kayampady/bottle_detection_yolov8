@@ -1,7 +1,7 @@
 # Custom Object Detection & Counting using YOLOv8
 
 ## Overview
-This project implements a custom object detection system using YOLOv8 to detect and count bottles in real time through a webcam feed.
+This project implements a custom object detection system using YOLOv8 to detect and count bottles in real time through a webcam feed. It even helps in estimating the distance of objects from the camera.
 
 The system is trained on a custom dataset and demonstrates real-time inference along with multi-object counting, making it suitable for applications like inventory monitoring and smart surveillance.
 
@@ -9,7 +9,7 @@ The system is trained on a custom dataset and demonstrates real-time inference a
 
 ## Features
 - Real-time object detection using webcam
-- Multi-object detection and counting
+- Multi-object detection ,counting and distance estimation
 - Bounding box visualization with confidence scores
 - Lightweight and runs on CPU
 
@@ -35,10 +35,11 @@ The system is trained on a custom dataset and demonstrates real-time inference a
 
 ---
 
-##  Project Structure
+## Project Structure
 bottle-detection-yolov8/
 ├── dataset_sample/
 ├── count.py
+├── distance.py   
 ├── test.py
 ├── README.md
 
